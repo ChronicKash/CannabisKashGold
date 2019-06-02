@@ -11,7 +11,7 @@ set(CMAKE_BUILD_TYPE Release CACHE STRING "Choose the type of build, options are
 set(CMAKE_CONFIGURATION_TYPES Debug RelWithDebInfo Release CACHE TYPE INTERNAL)
 set(ARCH native CACHE STRING "CPU to build for: -march value or native")
 
-project(TurtleCoin)
+project(CannabisKashGold)
 
 # Required for finding Threads on ARM
 enable_language(C)
