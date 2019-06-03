@@ -778,7 +778,7 @@ bool CryptoNoteProtocolHandler::on_connection_synchronized() {
       logger(INFO, WHITE) << " If you need more assistance, you can contact us for support at " + WalletConfig::contactLink << ENDL;
       logger(INFO, BRIGHT_MAGENTA) << "===================================================" << ENDL << ENDL ;
 
-      logger(INFO, BRIGHT_GREEN) << asciiArt << ENDL;
+      logger(INFO, BRIGHT_GREEN) << asctime << ENDL;
 
     m_observerManager.notify(&ICryptoNoteProtocolObserver::blockchainSynchronized, m_core.getTopBlockIndex());
   }
