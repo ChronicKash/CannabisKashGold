@@ -25,7 +25,7 @@ const std::string getAddressBookName(AddressBook addressBook)
     {
         std::string friendlyName;
 
-        std::cout << InformationMsg("What friendly name do you want to ")
+        std::cout << InformationMsg("What stoney name do you want to ")
                   << InformationMsg("give this address book entry?: ");
 
         std::getline(std::cin, friendlyName);
@@ -36,7 +36,7 @@ const std::string getAddressBookName(AddressBook addressBook)
 
         if (it != addressBook.end())
         {
-            std::cout << WarningMsg("An address book entry with this ")
+            std::cout << WarningMsg("Dude! an address book entry with this ")
                       << WarningMsg("name already exists!")
                       << std::endl << std::endl;
 
@@ -110,7 +110,7 @@ void addToAddressBook()
     if (saveAddressBook(addressBook))
     {
         std::cout << std::endl
-                  << SuccessMsg("A new entry has been added to your address ")
+                  << SuccessMsg("A new stoner has been added to your address ")
                   << SuccessMsg("book!")
                   << std::endl;
     }
@@ -147,7 +147,7 @@ const Maybe<const AddressBookEntry> getAddressBookEntry(AddressBook addressBook)
                   << WarningMsg(" in your address book!")
                   << std::endl << std::endl;
 
-        const bool list = confirm("Would you like to list everyone in your "
+        const bool list = confirm("Would you like to list stoner friends in your "
                                   "address book?");
 
         std::cout << std::endl;
@@ -218,7 +218,7 @@ bool isAddressBookEmpty(AddressBook addressBook)
 {
     if (addressBook.empty())
     {
-        std::cout << WarningMsg("Your address book is empty! Add some people ")
+        std::cout << WarningMsg("Your address book is empty! Add some people dude ")
                   << WarningMsg("to it first.")
                   << std::endl;
 
@@ -268,7 +268,7 @@ void deleteFromAddressBook()
             if (saveAddressBook(addressBook))
             {
                 std::cout << std::endl
-                          << SuccessMsg("This entry has been deleted from ")
+                          << SuccessMsg("This entry has been deleted and sent to the void of space ")
                           << SuccessMsg("your address book!")
                           << std::endl;
             }
