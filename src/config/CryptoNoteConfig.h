@@ -218,8 +218,8 @@ const size_t   BLOCKS_IDS_SYNCHRONIZING_DEFAULT_COUNT        =  10000;  //by def
 const uint64_t BLOCKS_SYNCHRONIZING_DEFAULT_COUNT            =  100;    //by default, blocks count in blocks downloading
 const size_t   COMMAND_RPC_GET_BLOCKS_FAST_MAX_COUNT         =  1000;
 
-const int      P2P_DEFAULT_PORT                              =  8011;
-const int      RPC_DEFAULT_PORT                              =  8010;
+const int      P2P_DEFAULT_PORT                              =  8010;
+const int      RPC_DEFAULT_PORT                              =  8011;
 const int      SERVICE_DEFAULT_PORT                          =  8025;
 
 const size_t   P2P_LOCAL_WHITE_PEERLIST_LIMIT                =  1000;
@@ -262,7 +262,7 @@ const static   boost::uuids::uuid CRYPTONOTE_NETWORK         =
 };
 
 const char* const SEED_NODES[] = {
-  "128.199.195.102:8011",//bud
-  "134.209.202.46:8011", //smokey
+  "128.199.195.102:8010",//bud
+  "134.209.202.46:8010", //smokey
 };
 } // CryptoNote
