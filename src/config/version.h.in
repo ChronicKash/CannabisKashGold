@@ -3,7 +3,7 @@
 
 #define PROJECT_NAME "CannabisKashGold"
 #define PROJECT_SITE "https://www.t.me/CannabisKash"
-#define PROJECT_COPYRIGHT "Copyright 2018-2019, The TurtleCoin Developers"
+#define PROJECT_COPYRIGHT "Copyright 2019, ChronicKash"
 #define APP_VER_MAJOR 0
 #define APP_VER_MINOR 14
 #define APP_VER_REV 6
