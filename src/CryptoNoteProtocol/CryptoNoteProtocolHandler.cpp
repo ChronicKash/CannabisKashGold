@@ -271,7 +271,7 @@ bool CryptoNoteProtocolHandler::process_payload_sync_data(const CORE_SYNC_DATA& 
 
     std::stringstream ss;
 
-    ss << "Your " << CRYPTONOTE_NAME << " node is syncing with the network ";
+    ss << "Your " << CRYPTONOTE_NAME << " node is syncing with the network Noiiiice! ";
 
     /* We're behind the remote node */
     if (diff >= 0)
@@ -287,7 +287,7 @@ bool CryptoNoteProtocolHandler::process_payload_sync_data(const CORE_SYNC_DATA& 
         ss << "You are " << std::abs(diff) << " blocks (" << days << " days) ahead ";
     }
 
-    ss << "the current peer you're connected to. Slow and steady wins the race! ";
+    ss << "the current peer you're connected to. Slow and hi wins the race! or does it? ";
 
     auto logLevel = Logging::TRACE;
     /* Log at different levels depending upon if we're ahead, behind, and if it's
@@ -760,8 +760,7 @@ bool CryptoNoteProtocolHandler::request_missing_objects(CryptoNoteConnectionCont
     requestMissingPoolTransactions(context);
 
     context.m_state = CryptoNoteConnectionContext::state_normal;
-    logger(Logging::INFO, Logging::BRIGHT_GREEN) << context << "Successfully synchronized with the "
-                                                 << CryptoNote::CRYPTONOTE_NAME << " Network.";
+    logger(Logging::INFO, Logging::BRIGHT_GREEN) << context << "Successfully synchronized with the CannabisKashGold Network Cowabunga Dude!";
     on_connection_synchronized();
   }
   return true;
