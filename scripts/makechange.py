@@ -14,8 +14,8 @@ $ python3.6 makechange.py
 Make two wallets and fill one or both with some funds, or start mining to it.
 Open the wallets with bud-serivce like so:
 
-./bud-service -w walletA.wallet -p yourpass --rpc-password test --bind-port 8070
-./bud-service -w walletB.wallet -p yourpass --rpc-password test --bind-port 8071
+./src/bud-service -w walletA.wallet -p yourpass --rpc-password test --bind-port 8070
+./src/bud-service -w walletB.wallet -p yourpass --rpc-password test --bind-port 8071
 
 Feel free to change these parameters if needed of course.
 
