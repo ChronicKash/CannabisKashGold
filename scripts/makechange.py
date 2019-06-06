@@ -34,8 +34,8 @@ from threading import Thread
 
 # Forks adjust as needed
 moveDecimal = 100  # BUDZ has 2 decimals so 100 is the divide/multiply factor
-minAmount = 100 * moveDecimal  # min number for amount to xfer
-maxAmount = 5000 * moveDecimal  # max number for amount to xfer
+minAmount = 1 * moveDecimal  # min number for amount to xfer
+maxAmount = 7 * moveDecimal  # max number for amount to xfer
 anonymity = 3
 fee = 10 # atomic units, BUDZ would be 0.10 as the tx network fee
 
