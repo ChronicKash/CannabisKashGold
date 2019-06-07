@@ -46,7 +46,7 @@ _set_wd() {
             case "$response" in
                 [yY][eE][sS|[yY])
                     _colorize red "Overwriting old CannabisKashGold directory" && echo
-                    rm -rf "$PWD"/turtlecoin
+                    rm -rf "$PWD"/CannabisKashGold
                     ;;
                 *)
                     _fail "CannabisKashGold directory already exists. Aborting..."
@@ -54,12 +54,12 @@ _set_wd() {
             esac
         fi
         mkdir CannabisKashGold
-        git clone -b master -q https://github.com/turtlecoin/turtlecoin turtlecoin   >>build.log 2>&1 || _fail "Unable to clone git repository. Please see build.log for more information"
+        git clone -b master -q https://github.com/ChronicKash/CannabisKashGold CannabisKashGold   >>build.log 2>&1 || _fail "Unable to clone git repository. Please see build.log for more information"
         cd CannabisKashGold
     fi
 }
 
-_build_turtlecoin() {
+_build_CannabisKashGold() {
     _note "Building CannabisKashGold from source (this might take a while)..."
     if [ -d build ]; then
         _colorize red "Overwriting old build directory" && echo
