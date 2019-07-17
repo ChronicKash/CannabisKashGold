@@ -1,5 +1,7 @@
 ![image](https://avatars3.githubusercontent.com/u/50982612?s=460&v=4)
 
+* My appoligies to anyone who cared not a single investor that spent more than a few dollars per trade so there is no way in hell anyone is going to sue me for this since I am the only one that lost on this project so I will devote my time to something else.
+
 #### Master Build Status
 
 CannabisKashGold a new currency for the cannabis culture.
