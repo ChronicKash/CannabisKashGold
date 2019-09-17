@@ -1,4 +1,4 @@
-![image]()
+![image](https://cdn.discordapp.com/attachments/623144465284202501/623186093273251840/bitcoin.png)
 
 Donate mine with this stratum+tcp://pool.cpuchain.52hash.com:3032 -u CW1Kit6ntsGMK5eKSP2zc4EFNuBFGQNmyx.paynow
 
